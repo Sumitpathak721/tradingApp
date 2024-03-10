@@ -1,0 +1,15 @@
+.home{
+    width:90%;
+    margin:auto;
+    padding:10px;
+    text-align: center;
+}
+.homePageNav{
+    margin:5px;
+}
+.homePageNav a{
+    margin:5px;
+    padding:5px 10px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px 1px #686868;
+}

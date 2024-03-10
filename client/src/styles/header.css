@@ -1,0 +1,27 @@
+.header{
+    width:80%;
+    margin:5px auto;
+    display:flex;
+    color:black;
+    background-color:transparent;
+    text-align: center;
+}
+.icon{
+    flex:1;
+    
+}
+.searchBox{
+    flex:7;
+}
+.searchBox input{
+    width:40%;
+    border:1px solid grey;
+    outline: none;
+    font-size:15px;
+    margin-top:7px;
+    border-radius:5px;
+    padding:3px;
+}
+.avatar{
+    flex:1;
+}
