@@ -13,6 +13,22 @@ TradingApp is a user-friendly trading app designed to demystify the stock market
 * **Educational Resources (Optional):** Enhance your financial knowledge with in-app tutorials, articles, or glossaries (consider including these if they align with your vision).
 * **Safe Environment (Optional):** Emphasize that paper trading carries no risk of losing real money.
 
+**Snap Shots:**
+
+### Login Page:
+![image](https://github.com/Sumitpathak721/tradingApp/assets/98797074/5d982bac-03f5-4b5c-b258-ada0dceb7c89)
+
+
+### Home Page:
+![Screenshot 2024-03-13 021214](https://github.com/Sumitpathak721/tradingApp/assets/98797074/c649cb71-fcef-4bdd-b035-dc6bde1d57b0)
+
+### Stock Price for intraday:
+![Screenshot 2024-03-13 021227](https://github.com/Sumitpathak721/tradingApp/assets/98797074/5abae80d-6493-4387-af95-e360f45eedeb)
+
+### Stock Price for historical Data:
+![Screenshot 2024-03-13 021237](https://github.com/Sumitpathak721/tradingApp/assets/98797074/956ad7bf-aec5-4bb5-90c6-8c6c5b98a72c)
+
+
 **Technology Stack:**
 
 * Backend: Spring Boot
