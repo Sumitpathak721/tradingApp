@@ -7,6 +7,7 @@ import Register from "./pages/Register.jsx"
 import Login from "./pages/Login.jsx";
 import Layout from "./components/Layout.jsx";
 import { AuthProvider } from "./context/auth.js";
+import "bootstrap/dist/css/bootstrap.min.css";
 import PrivateRoute from "./PrivateComponent/PrivateRoute.jsx";
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
               <Route index element={<Home />} />
               <Route path=":pageNumber" element={<Home />} />
               <Route path="transection" element={<Transection />} />
-              <Route path="stocks/:CompanyID" element={<Stock />} />
+              <Route path="stocks/:ticker" element={<Stock />} />
             </Route>
           </Route>
           <Route path="/about" element={<About />} />

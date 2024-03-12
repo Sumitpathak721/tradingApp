@@ -20,28 +20,38 @@ const AuthProvider = ({ children }) => {
   
 
   useEffect(() => {
-    try{
-      const data = localStorage.getItem("auth");
-      if (data) {
-        const parseData = JSON.parse(data);
+    const func = async()=>{
+      try{
+        const data = localStorage.getItem("auth");
+        
+        if (data!=null) {
+          const parseData = await JSON.parse(data);
+          setAuth({
+            ...auth,
+            user: parseData.user,
+            token:parseData.token,
+            loading:false
+          });
+          axios.defaults.headers.common['Authorization'] = parseData.token;
+        }else{
+          setAuth({
+            ...auth,
+            user:null,
+            token:'',
+            loading:false
+          });
+        }
+      }catch(e){
         setAuth({
           ...auth,
-          user: parseData.user,
-          token:parseData.token,
+          user:null,
+          token:'',
           loading:false
         });
-        //default axios
-        axios.defaults.headers.common['Authorization'] = auth;
+        console.log("Error in AuthContext",e);
       }
-    }catch(e){
-      setAuth({
-        ...auth,
-        user:null,
-        token:'',
-        loading:false
-      });
-      console.log("Error in AuthContext",e);
     }
+    func()
     //eslint-disable-next-line
   }, []);
   return (
