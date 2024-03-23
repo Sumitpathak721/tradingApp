@@ -25,6 +25,10 @@ TradingApp is a user-friendly trading app designed to demystify the stock market
 ### Stock Price for intraday:
 ![Screenshot 2024-03-13 021227](https://github.com/Sumitpathak721/tradingApp/assets/98797074/5abae80d-6493-4387-af95-e360f45eedeb)
 
+### Paper Trading Option:
+![Stockpage-tradingApp](https://github.com/Sumitpathak721/tradingApp/assets/98797074/0e21362a-b77d-4a4d-8fd3-fd7126909aaa)
+
+
 ### Stock Price for historical Data:
 ![Screenshot 2024-03-13 021237](https://github.com/Sumitpathak721/tradingApp/assets/98797074/956ad7bf-aec5-4bb5-90c6-8c6c5b98a72c)
 
